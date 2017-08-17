@@ -1,9 +1,9 @@
 class MessagesController < ApplicationController 
- skip_before_action :verify_authenticity_token
- 
+  skip_before_action :verify_authenticity_token
   def reply
     msg = params["Body"]
     non_twilio_num = params["From"]
+    twilio_num= '+12028757342'
     account_sid = ENV['ACCOUNT_SID2'] 
     auth_token = ENV['AUTH_TOKEN2'] 
     @client = Twilio::REST::Client.new account_sid, auth_token
@@ -14,9 +14,9 @@ class MessagesController < ApplicationController
     else 
       body_resp="we know the wayyy"
     sms = @client.messages.create(
-    	body: body_resp,
-    	from: '+12028757342',
-    	to: non_twilio_num,
+      body: body_resp,
+      from: twilio_num,
+      to: non_twilio_num,
     )
     end
   end
