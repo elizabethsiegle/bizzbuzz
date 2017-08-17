@@ -13,6 +13,16 @@ ActionController::RoutingError (No route matches [GET] "/ideas"):
 actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+
+Started POST "/messages/reply" for 54.147.194.242 at 2017-08-17 09:31:45 -0400
+Cannot render console from 54.147.194.242! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/messages/reply"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+
 web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
 web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
 actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
@@ -37,6 +47,7 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
 Started GET "/" for 127.0.0.1 at 2017-08-16 22:10:47 -0400
 Started GET "/ideas" for 127.0.0.1 at 2017-08-16 22:10:47 -0400
   
@@ -599,5 +610,60 @@ Processing by PagesController#data as HTML
   Rendering pages/data.html.erb within layouts/application
   Rendered pages/data.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 38ms (Views: 36.4ms)
+Started POST "/messages/reply" for 34.205.68.138 at 2017-08-17 09:34:55 -0400
+Cannot render console from 34.205.68.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"District Of Columbia", "SmsMessageSid"=>"SM737f3c5ad552e15d0399c739faf2ff13", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"94024", "SmsSid"=>"SM737f3c5ad552e15d0399c739faf2ff13", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+12028757342", "ToZip"=>"", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM737f3c5ad552e15d0399c739faf2ff13", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 6828ms
+
+
+Started POST "/messages/reply" for 54.87.127.250 at 2017-08-17 09:39:14 -0400
+Cannot render console from 54.87.127.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"District Of Columbia", "SmsMessageSid"=>"SM4920e1ab01be9ca7ac5c688854436388", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"94024", "SmsSid"=>"SM4920e1ab01be9ca7ac5c688854436388", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Heyo", "FromCountry"=>"US", "To"=>"+12028757342", "ToZip"=>"", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM4920e1ab01be9ca7ac5c688854436388", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 58826ms
+
+
+  
+Twilio::REST::RestError (Unable to create record: The requested resource /2010-04-01/Accounts//Messages.json was not found):
+  
+app/controllers/messages_controller.rb:16:in `reply'
+Started POST "/messages/reply" for 54.204.144.128 at 2017-08-17 09:41:48 -0400
+Cannot render console from 54.204.144.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"District Of Columbia", "SmsMessageSid"=>"SM5fd9916931df021f3339cc82e54441ea", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"94024", "SmsSid"=>"SM5fd9916931df021f3339cc82e54441ea", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Heyo", "FromCountry"=>"US", "To"=>"+12028757342", "ToZip"=>"", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM5fd9916931df021f3339cc82e54441ea", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 14893ms
+
+
+  
+Twilio::REST::RestError (Unable to create record: The requested resource /2010-04-01/Accounts//Messages.json was not found):
+  
+app/controllers/messages_controller.rb:16:in `reply'
+Started POST "/messages/reply" for 34.204.3.246 at 2017-08-17 09:43:04 -0400
+Cannot render console from 34.204.3.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"District Of Columbia", "SmsMessageSid"=>"SM0816e87350c65fa0966b34b1c246a539", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"94024", "SmsSid"=>"SM0816e87350c65fa0966b34b1c246a539", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Heyo", "FromCountry"=>"US", "To"=>"+12028757342", "ToZip"=>"", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM0816e87350c65fa0966b34b1c246a539", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 3835ms
+
+
+  
+Twilio::REST::RestError (Unable to create record: The requested resource /2010-04-01/Accounts//Messages.json was not found):
+  
+app/controllers/messages_controller.rb:16:in `reply'
+Started POST "/messages/reply" for 54.209.133.33 at 2017-08-17 09:45:42 -0400
+Cannot render console from 54.209.133.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"District Of Columbia", "SmsMessageSid"=>"SM130370aca22cd839be6ec6c16afd8da2", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"94024", "SmsSid"=>"SM130370aca22cd839be6ec6c16afd8da2", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Heyo", "FromCountry"=>"US", "To"=>"+12028757342", "ToZip"=>"", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM130370aca22cd839be6ec6c16afd8da2", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 13108ms
+
+
+Started POST "/messages/reply" for 34.227.32.247 at 2017-08-17 09:46:18 -0400
+Cannot render console from 34.227.32.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"DC", "SmsMessageSid"=>"SMc9ecb90d352d8cb3b16438b36afc58cf", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"94024", "SmsSid"=>"SMc9ecb90d352d8cb3b16438b36afc58cf", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Heyo", "FromCountry"=>"US", "To"=>"+12028757342", "ToZip"=>"", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMc9ecb90d352d8cb3b16438b36afc58cf", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 24499ms
 
 
