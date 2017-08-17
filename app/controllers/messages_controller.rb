@@ -4,8 +4,8 @@ class MessagesController < ApplicationController
   def reply
     msg = params["Body"]
     non_twilio_num = params["From"]
-    account_sid = 'AC358a60437a112c5c59d3b52da1f0dcc7'
-    auth_token = 'e7ae1b711f733bae6c2647bd62154b77' 
+    account_sid = ENV['ACCOUNT_SID2'] 
+    auth_token = ENV['AUTH_TOKEN2'] 
     @client = Twilio::REST::Client.new account_sid, auth_token
     if msg == "hi" then
       body_resp = "i like warm hugs"

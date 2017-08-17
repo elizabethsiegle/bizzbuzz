@@ -29,6 +29,8 @@ Rails.application.configure do
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
+  account_sid = 'AC358a60437a112c5c59d3b52da1f0dcc7'
+  auth_token = 'e7ae1b711f733bae6c2647bd62154b77' 
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
