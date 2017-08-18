@@ -954,3 +954,206 @@ Processing by PagesController#data as HTML
 Completed 200 OK in 18ms (Views: 16.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-08-17 22:32:41 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 598ms (Views: 218.7ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:32:44 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 39.0ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:33:01 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.8ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:33:05 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 32.0ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:33:20 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 36.2ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:34:53 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.8ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:35:13 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 40.1ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:39:19 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 310ms (Views: 307.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-17 22:39:22 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 285ms (Views: 272.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-17 22:39:50 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 95ms (Views: 87.5ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:39:55 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 101ms (Views: 99.5ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:40:38 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 45ms (Views: 42.4ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:43:09 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.7ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:43:11 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 19.3ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:44:43 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 42.2ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:50:19 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 22.2ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:50:38 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 27ms (Views: 25.6ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:53:38 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 43.6ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:54:00 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 21.1ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:54:49 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 33.8ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:54:56 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.3ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 22:55:23 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 36.1ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 23:05:00 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 47.1ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 23:06:34 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 38.0ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 23:11:38 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 34.2ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 23:13:03 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 14.4ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 23:15:29 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 19.8ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 23:17:17 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 17.5ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 23:18:04 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 46.7ms)
+
+

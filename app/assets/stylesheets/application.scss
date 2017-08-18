@@ -24,7 +24,7 @@ $text-color: #595959;
 $background-color: #E1F6FF;
 
  body {
-   text-align: center;
+   text-align: left;
    background-color: $background-color;
    color: $text-color;
  }
@@ -33,12 +33,46 @@ $background-color: #E1F6FF;
     margin-top: 100px;
   }
 
-.rt{
+#rt{
   fill: $yellow;
 }
 
+#like{
+  fill: $orange;
+}
+
+#share{
+  fill: $white;
+}
+
+#fb {
+  fill:$light-blue;
+}
+
+#reactions {
+  fill: $orange;
+}
+
+#comment {
+  fill: $text-color;
+}
+#trend {
+  fill: $white;
+}
+#followers {
+  fill: $dark-blue;
+}
+
+#inventory{
+  fill: $light-blue;
+}
 .icon-size {
   width: 100px;
   height: 100px;
+}
+
+.title-icon{
+  width: 250px;
+  height: 250px;
 }
 @import "pages";
