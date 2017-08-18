@@ -8,8 +8,15 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
+
 gem 'font-awesome-sass'
 
+# Use sqlite3 as the database for Active Record
+gem 'unirest'
+gem 'json'
+group :development do
+  gem 'sqlite3'
+end
 group :production do
   gem 'pg', '~> 0.18'
   gem 'rails_12factor'
@@ -29,6 +36,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+gem 'json'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
