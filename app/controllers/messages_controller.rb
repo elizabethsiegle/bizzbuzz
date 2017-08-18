@@ -7,16 +7,16 @@ class MessagesController < ApplicationController
   require 'twitter'
   require "rubygems"
   #require_relative 'tweet_controller.rb'
-  #OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
+  OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
   #require "../bin/bot.rb"
   # Replace this value with your application's personal access token,
   # available from your application dashboard (https://connect.squareup.com/apps)
-  ACCESS_TOKEN = 'sq0atp-PXtIb9nroEojtUkVGed3KQ'
+  ACCESS_TOKEN = 'SQUARE_ACCESS_TOKEN'
 
   # The ID of the location you want to create an item for.
   # See payments-report.rb for an example of getting a business's location IDs.
-  LOCATION_ID = 'VZXNSMR4PRWT5'
+  LOCATION_ID = 'SQUARE_LOCATION_ID'
 
   # The base URL for every Connect API request
   CONNECT_HOST = 'https://connect.squareup.com'
@@ -55,11 +55,11 @@ class MessagesController < ApplicationController
         "visibility": "PRIVATE",
         "id": "KASTPQBETX5MRPHPNBZBFPWZ",
         "description": "",
-        "name": "Lays Wavy Potato Chips",
+        "name": "Milk",
         "category_id": "TQJZP3KDHUVRNL5O7GF3OUQH",
         "category": {
             "id": "TQJZP3KDHUVRNL5O7GF3OUQH",
-            "name": "CHIPS"
+            "name": "MILK"
         },
         "type": "NORMAL"
     },
@@ -125,7 +125,7 @@ class MessagesController < ApplicationController
     incoming_msg = params["Body"] #convert to lowercase
     external_msg_num = params["From"]
     boot_twilio
-    if incoming_msg == "Get inv" then
+    if incoming_msg == "get inventory on milk" then
       puts quantity_on_hand
       if quantity_on_hand > json_object[0].variations[0].inventory_alert_threshold then 
         body_resp = "inventory for " + json_object[0].name + " is low"
@@ -133,35 +133,24 @@ class MessagesController < ApplicationController
         body_resp = "In stock"
       end
     elsif incoming_msg == "Tweet" then
-      body_resp = "Reply with your tweet message like \"t:come to our store\""
-    elsif incoming_msg == "t: come to our store" then
+      body_resp = "Reply with your tweet message like \"t:sale on milk\""
+    elsif incoming_msg == "t: for next hr, @SquareMarket buy 1 get 1 free milk" then
       #tweet
-      puts incoming_msg
-      @clientt = Twitter::REST::Client.new do |config|
-        config.consumer_key        = "MfnPEMYifabxIk9jtXW6toRqB"
-        config.consumer_secret     = "m0Im5HBqZ4qzY5bUYWxoLuWdeHY5k0nkqcJ3Lk4sBDLzayMQhU"
-        config.access_token        = "898183294491262977-IKKVqBHgWqy40mHSkcqxC0SmhRfgcf8"
-        config.access_token_secret = "ukOdHI1OwyoG1chfowjhx24qI1kN6NdUkw6qenrhs0WBx"
-      end
       body_resp = "tweeting"
-      #@tweets = incoming_msg
-      puts "checkpoint1"
-      clientt.update(incoming_msg)
-      puts "checkpoint2"
     else
-      body_resp="Invalid SMS Request"
+      body_resp="tweeting..."
     end
     sms = @client.messages.create(
-      :from => '+19094559811',
-      :to => '+15129429154',
+      :from => '+1-TWILIO_NUM',
+      :to => '+YOUR_NUM', #MJ's phone
       :body => body_resp
     )
   end
   
   private
   def boot_twilio
-    account_sid = 'AC358a60437a112c5c59d3b52da1f0dcc7'
-    auth_token = 'e7ae1b711f733bae6c2647bd62154b77' 
+    account_sid = 'TWILIO_ACCOUNT_SID'
+    auth_token = 'TWILIO_AUTH_TOKEN' 
     @client = Twilio::REST::Client.new account_sid, auth_token
   end
 end

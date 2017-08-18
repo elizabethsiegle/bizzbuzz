@@ -2643,3 +2643,169 @@ Completed 500 Internal Server Error in 123ms
 NameError (uninitialized constant Twitter::REST):
   
 app/controllers/messages_controller.rb:140:in `reply'
+Started POST "/messages/reply" for 34.201.58.161 at 2017-08-18 10:28:20 -0400
+Cannot render console from 34.201.58.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM400e046bfa83e5fdb4c15a9a4201fc0d", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM400e046bfa83e5fdb4c15a9a4201fc0d", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM400e046bfa83e5fdb4c15a9a4201fc0d", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 263ms
+
+
+  
+Faraday::SSLError (SSL_connect returned=1 errno=0 state=error: certificate verify failed):
+  
+app/controllers/messages_controller.rb:147:in `reply'
+Started POST "/messages/reply" for 34.226.218.1 at 2017-08-18 10:29:19 -0400
+Cannot render console from 34.226.218.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMcd4308bf93241085feff8019599fa86b", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SMcd4308bf93241085feff8019599fa86b", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMcd4308bf93241085feff8019599fa86b", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 84ms
+
+
+  
+Faraday::SSLError (SSL_connect returned=1 errno=0 state=error: certificate verify failed):
+  
+app/controllers/messages_controller.rb:143:in `reply'
+Started POST "/messages/reply" for 54.167.248.104 at 2017-08-18 10:30:20 -0400
+Cannot render console from 54.167.248.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM560570d287ae7f264a3641d16e898a1e", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM560570d287ae7f264a3641d16e898a1e", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM560570d287ae7f264a3641d16e898a1e", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 603ms
+
+
+Started POST "/messages/reply" for 54.174.77.39 at 2017-08-18 10:31:16 -0400
+Cannot render console from 54.174.77.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMcd81595cb9d4873c36431530bcb64e2d", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMcd81595cb9d4873c36431530bcb64e2d", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Come to our store", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMcd81595cb9d4873c36431530bcb64e2d", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 518ms
+
+
+Started POST "/messages/reply" for 52.91.163.250 at 2017-08-18 10:33:07 -0400
+Cannot render console from 52.91.163.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM59b380f157ec2bc4515eba7b7ff0b7c7", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM59b380f157ec2bc4515eba7b7ff0b7c7", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"Tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM59b380f157ec2bc4515eba7b7ff0b7c7", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 489ms
+
+
+Started POST "/messages/reply" for 54.147.194.242 at 2017-08-18 10:35:13 -0400
+Cannot render console from 54.147.194.242! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM5d8bedf87ae3bb18e6d6a406c1a38698", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM5d8bedf87ae3bb18e6d6a406c1a38698", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"come to our store", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM5d8bedf87ae3bb18e6d6a406c1a38698", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 491ms
+
+
+Started POST "/messages/reply" for 54.221.0.55 at 2017-08-18 10:35:23 -0400
+Cannot render console from 54.221.0.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM4555e71798f32f73cb165b015e3b6c78", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM4555e71798f32f73cb165b015e3b6c78", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"t: come to our store", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM4555e71798f32f73cb165b015e3b6c78", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 573ms
+
+
+Started POST "/messages/reply" for 54.147.194.242 at 2017-08-18 10:54:33 -0400
+Cannot render console from 54.147.194.242! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMb1a65ea8959efcf98b98d31bb620310e", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SMb1a65ea8959efcf98b98d31bb620310e", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMb1a65ea8959efcf98b98d31bb620310e", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 497ms
+
+
+Started POST "/messages/reply" for 54.89.115.235 at 2017-08-18 10:54:54 -0400
+Cannot render console from 54.89.115.235! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM93d01ca7032fce5eca3e8b4f3dbeb463", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM93d01ca7032fce5eca3e8b4f3dbeb463", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"t: for next hr, buy 1 get 1 free milk", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM93d01ca7032fce5eca3e8b4f3dbeb463", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 420ms
+
+
+Started POST "/messages/reply" for 34.204.86.189 at 2017-08-18 10:55:13 -0400
+Cannot render console from 34.204.86.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMc22998245d2978f376bccfd6971745b1", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SMc22998245d2978f376bccfd6971745b1", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"t: for next hr, @SquareMarket buy 1 get 1 free milk", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMc22998245d2978f376bccfd6971745b1", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 580ms
+
+
+Started POST "/messages/reply" for 54.147.12.28 at 2017-08-18 10:56:27 -0400
+Cannot render console from 54.147.12.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM6ddc126cb7b93dc429704332b7e5131a", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM6ddc126cb7b93dc429704332b7e5131a", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"get inventory on milk", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM6ddc126cb7b93dc429704332b7e5131a", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 553ms
+
+
+Started POST "/messages/reply" for 54.210.132.108 at 2017-08-18 10:57:05 -0400
+Cannot render console from 54.210.132.108! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM220c375481bdcf94f9ca3e74cac81384", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM220c375481bdcf94f9ca3e74cac81384", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"t: for next hr, @SquareMarket buy 1 get 1 free milk", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM220c375481bdcf94f9ca3e74cac81384", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 401ms
+
+
+Started POST "/messages/reply" for 54.235.224.202 at 2017-08-18 11:00:55 -0400
+Cannot render console from 54.235.224.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMf2eac22045a492f3013318b93c6e6ce6", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SMf2eac22045a492f3013318b93c6e6ce6", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"get inventory on milk", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMf2eac22045a492f3013318b93c6e6ce6", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 593ms
+
+
+Started POST "/messages/reply" for 54.85.153.206 at 2017-08-18 11:01:26 -0400
+Cannot render console from 54.85.153.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMc4bdaacb28590d0bf73c332cf5a169d7", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SMc4bdaacb28590d0bf73c332cf5a169d7", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"Tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMc4bdaacb28590d0bf73c332cf5a169d7", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 575ms
+
+
+Started POST "/messages/reply" for 34.229.9.220 at 2017-08-18 11:02:27 -0400
+Cannot render console from 34.229.9.220! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMb647f213e30a12fde6b81947dc7d921d", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SMb647f213e30a12fde6b81947dc7d921d", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"t: for next hr, @SquareMarket buy 1 get 1 free milk", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMb647f213e30a12fde6b81947dc7d921d", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 659ms
+
+
+Started POST "/messages/reply" for 34.201.58.161 at 2017-08-18 11:13:53 -0400
+Cannot render console from 34.201.58.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMf8d877c0098b58408f7799335de96868", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SMf8d877c0098b58408f7799335de96868", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"get inventory on milk", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMf8d877c0098b58408f7799335de96868", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 523ms
+
+
+Started POST "/messages/reply" for 54.84.237.135 at 2017-08-18 11:14:05 -0400
+Cannot render console from 54.84.237.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM6c1b76496654795dc27c3ce0b54e4044", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM6c1b76496654795dc27c3ce0b54e4044", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"Tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM6c1b76496654795dc27c3ce0b54e4044", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 1304ms
+
+
+Started POST "/messages/reply" for 54.83.190.206 at 2017-08-18 11:15:24 -0400
+Cannot render console from 54.83.190.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM60a5408ea7a99657bbcea9264c9b0709", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM60a5408ea7a99657bbcea9264c9b0709", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"t: for next hr, @SquareMarket buy 1 get 1 free milk", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM60a5408ea7a99657bbcea9264c9b0709", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 662ms
+
+
+Started POST "/messages/reply" for 34.201.39.135 at 2017-08-18 13:39:29 -0400
+Cannot render console from 34.201.39.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMf99f0ce23fbec42934b7d2803e481f34", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SMf99f0ce23fbec42934b7d2803e481f34", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"get inventory on milk", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMf99f0ce23fbec42934b7d2803e481f34", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 1188ms
+
+
+Started POST "/messages/reply" for 54.235.224.202 at 2017-08-18 13:39:40 -0400
+Cannot render console from 54.235.224.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM2f14886ae20b17ec188d0d9cb5115a74", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94605", "SmsSid"=>"SM2f14886ae20b17ec188d0d9cb5115a74", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"OAKLAND", "Body"=>"Tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM2f14886ae20b17ec188d0d9cb5115a74", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15108750066", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 896ms
+
+
