@@ -898,3 +898,408 @@ No template found for MessagesController#reply, rendering head :no_content
 Completed 204 No Content in 952ms
 
 
+Started POST "/messages/reply" for 54.210.127.134 at 2017-08-17 23:09:41 -0400
+Cannot render console from 54.210.127.134! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:96: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/messages_controller.rb:96: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/messages/reply" for 34.226.218.1 at 2017-08-17 23:14:02 -0400
+Cannot render console from 34.226.218.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+LoadError (cannot load such file -- unirest):
+  
+app/controllers/messages_controller.rb:3:in `<class:MessagesController>'
+app/controllers/messages_controller.rb:1:in `<top (required)>'
+Started POST "/messages/reply" for 107.23.27.181 at 2017-08-17 23:15:21 -0400
+Cannot render console from 107.23.27.181! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:84: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/messages_controller.rb:84: syntax error, unexpected keyword_end, expecting end-of-input
+Started POST "/messages/reply" for 54.165.191.79 at 2017-08-17 23:15:38 -0400
+Cannot render console from 54.165.191.79! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+LoadError (cannot load such file -- unirest):
+  
+app/controllers/messages_controller.rb:3:in `<class:MessagesController>'
+app/controllers/messages_controller.rb:1:in `<top (required)>'
+Started POST "/messages/reply" for 34.205.68.138 at 2017-08-17 23:16:58 -0400
+Cannot render console from 34.205.68.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+LoadError (cannot load such file -- unirest):
+  
+app/controllers/messages_controller.rb:3:in `<class:MessagesController>'
+app/controllers/messages_controller.rb:1:in `<top (required)>'
+Started POST "/messages/reply" for 54.90.142.173 at 2017-08-17 23:17:57 -0400
+Cannot render console from 54.90.142.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+LoadError (cannot load such file -- unirest):
+  
+app/controllers/messages_controller.rb:3:in `<class:MessagesController>'
+app/controllers/messages_controller.rb:1:in `<top (required)>'
+Started POST "/messages/reply" for 54.90.168.195 at 2017-08-17 23:18:32 -0400
+Cannot render console from 54.90.168.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+LoadError (cannot load such file -- unirest):
+  
+app/controllers/messages_controller.rb:3:in `<class:MessagesController>'
+app/controllers/messages_controller.rb:1:in `<top (required)>'
+Started POST "/messages/reply" for 52.91.61.225 at 2017-08-17 23:20:29 -0400
+Cannot render console from 52.91.61.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM89dfd06ffe097f8534a6a782ae718bcb", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM89dfd06ffe097f8534a6a782ae718bcb", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM89dfd06ffe097f8534a6a782ae718bcb", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 2064ms
+
+
+  
+NameError (undefined local variable or method `msg' for #<MessagesController:0x007fc07c4af620>):
+  
+app/controllers/messages_controller.rb:60:in `reply'
+Started POST "/messages/reply" for 54.210.132.108 at 2017-08-17 23:22:04 -0400
+Cannot render console from 54.210.132.108! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM3a52c705eb45bb532fdfc097be484e70", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM3a52c705eb45bb532fdfc097be484e70", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM3a52c705eb45bb532fdfc097be484e70", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 7100ms
+
+
+  
+NameError (undefined local variable or method `msg' for #<MessagesController:0x007fc07d88df20>):
+  
+app/controllers/messages_controller.rb:27:in `reply'
+Started POST "/messages/reply" for 34.229.9.220 at 2017-08-17 23:22:42 -0400
+Cannot render console from 34.229.9.220! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM81d8e90eccdb99efdea88857ac7b1581", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM81d8e90eccdb99efdea88857ac7b1581", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM81d8e90eccdb99efdea88857ac7b1581", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 7077ms
+
+
+Started POST "/messages/reply" for 34.201.39.135 at 2017-08-17 23:23:15 -0400
+Cannot render console from 34.201.39.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMb78fd1b93c210890137f6552acf4dad8", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMb78fd1b93c210890137f6552acf4dad8", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET INV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMb78fd1b93c210890137f6552acf4dad8", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 5957ms
+
+
+Started POST "/messages/reply" for 34.229.238.90 at 2017-08-17 23:24:11 -0400
+Cannot render console from 34.229.238.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMa2776198d81fcc4458bd5aa43a8dcf86", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMa2776198d81fcc4458bd5aa43a8dcf86", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMa2776198d81fcc4458bd5aa43a8dcf86", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 3147ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:28:in `reply'
+Started POST "/messages/reply" for 54.198.224.139 at 2017-08-17 23:24:49 -0400
+Cannot render console from 54.198.224.139! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM54728eddf25d65580b4c943065ac70a3", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM54728eddf25d65580b4c943065ac70a3", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET INV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM54728eddf25d65580b4c943065ac70a3", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 2407ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:28:in `reply'
+Started POST "/messages/reply" for 52.23.220.13 at 2017-08-17 23:26:32 -0400
+Cannot render console from 52.23.220.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM23abef675c485a28f14bcc2aa9febc2a", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM23abef675c485a28f14bcc2aa9febc2a", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET INV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM23abef675c485a28f14bcc2aa9febc2a", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 4633ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:28:in `reply'
+Started POST "/messages/reply" for 54.90.142.173 at 2017-08-17 23:27:18 -0400
+Cannot render console from 54.90.142.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMc555132fc0d389be5ea14ff63b3dd93e", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMc555132fc0d389be5ea14ff63b3dd93e", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET ENV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMc555132fc0d389be5ea14ff63b3dd93e", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 2683ms
+
+
+Started POST "/messages/reply" for 52.91.58.143 at 2017-08-17 23:32:14 -0400
+Cannot render console from 52.91.58.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM9b82ea9033f27e31f8b7016560c11d13", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM9b82ea9033f27e31f8b7016560c11d13", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET ENV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM9b82ea9033f27e31f8b7016560c11d13", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 2713ms
+
+
+Started POST "/messages/reply" for 34.205.78.242 at 2017-08-17 23:33:57 -0400
+Cannot render console from 34.205.78.242! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:40: dynamic constant assignment
+    ACCESS_TOKEN = 'sq0atp-PXtIb9nroEojtUkVGed3K
+                  ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:43: dynamic constant assignment
+    LOCATION_ID = 'VZXNSMR4PRWT5'
+                 ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:45: dynamic constant assignment
+    CONNECT_HOST = 'https://connect.squareup.com
+                  ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:47: dynamic constant assignment
+    REQUEST_HEADERS = {
+                     ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:70: dynamic constant assignment
+    ACCESS_TOKEN = 'sq0atp-PXtIb9nroEojtUkVGed3K
+                  ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:73: dynamic constant assignment
+    LOCATION_ID = 'VZXNSMR4PRWT5'
+                 ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:75: dynamic constant assignment
+    CONNECT_HOST = 'https://connect.squareup.com
+                  ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:77: dynamic constant assignment
+    REQUEST_HEADERS = {
+                     ^):
+  
+app/controllers/messages_controller.rb:40: dynamic constant assignment
+app/controllers/messages_controller.rb:43: dynamic constant assignment
+app/controllers/messages_controller.rb:45: dynamic constant assignment
+app/controllers/messages_controller.rb:47: dynamic constant assignment
+app/controllers/messages_controller.rb:70: dynamic constant assignment
+app/controllers/messages_controller.rb:73: dynamic constant assignment
+app/controllers/messages_controller.rb:75: dynamic constant assignment
+app/controllers/messages_controller.rb:77: dynamic constant assignment
+Started POST "/messages/reply" for 54.224.200.90 at 2017-08-17 23:35:29 -0400
+Cannot render console from 54.224.200.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM37310decfba6139391d3117852759270", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM37310decfba6139391d3117852759270", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET ENV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM37310decfba6139391d3117852759270", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 1030ms
+
+
+  
+NameError (uninitialized constant MessagesController::ACCESS_TOKEN):
+  
+app/controllers/messages_controller.rb:48:in `get_quantity'
+app/controllers/messages_controller.rb:11:in `reply'
+Started POST "/messages/reply" for 54.174.234.153 at 2017-08-17 23:35:55 -0400
+Cannot render console from 54.174.234.153! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM72405cae9226f8e493d585d8992ebd59", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM72405cae9226f8e493d585d8992ebd59", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET ENV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM72405cae9226f8e493d585d8992ebd59", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 1564ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/messages_controller.rb:53:in `+'
+app/controllers/messages_controller.rb:53:in `get_quantity'
+app/controllers/messages_controller.rb:11:in `reply'
+Started POST "/messages/reply" for 54.85.153.206 at 2017-08-17 23:36:19 -0400
+Cannot render console from 54.85.153.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMc38faef8da8948a02e6063a75bff1080", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMc38faef8da8948a02e6063a75bff1080", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET ENV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMc38faef8da8948a02e6063a75bff1080", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 1820ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/messages_controller.rb:53:in `+'
+app/controllers/messages_controller.rb:53:in `get_quantity'
+app/controllers/messages_controller.rb:11:in `reply'
+Started POST "/messages/reply" for 52.90.54.44 at 2017-08-17 23:39:10 -0400
+Cannot render console from 52.90.54.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMe112dfbaf575ad58f712aaf53cebdb9e", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMe112dfbaf575ad58f712aaf53cebdb9e", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET ENV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMe112dfbaf575ad58f712aaf53cebdb9e", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 7825ms
+
+
+Started POST "/messages/reply" for 54.85.153.206 at 2017-08-17 23:40:54 -0400
+Cannot render console from 54.85.153.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMab7a15da85ea7cd56633f0ffffe886c8", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMab7a15da85ea7cd56633f0ffffe886c8", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET ENV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMab7a15da85ea7cd56633f0ffffe886c8", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 3511ms
+
+
+Started POST "/messages/reply" for 54.210.132.108 at 2017-08-18 00:36:23 -0400
+Cannot render console from 54.210.132.108! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM741ce2393aa816a9b4a7c286c5a9d262", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM741ce2393aa816a9b4a7c286c5a9d262", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET ENV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM741ce2393aa816a9b4a7c286c5a9d262", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 3918ms
+
+
+Started POST "/messages/reply" for 54.87.244.69 at 2017-08-18 00:37:27 -0400
+Cannot render console from 54.87.244.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMd8ac82056a9f2f20a53d301da886e815", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMd8ac82056a9f2f20a53d301da886e815", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"GET ENV", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMd8ac82056a9f2f20a53d301da886e815", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 2353ms
+
+
+Started POST "/messages/reply" for 34.204.3.246 at 2017-08-18 00:40:22 -0400
+Cannot render console from 34.204.3.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMac3656f610d9882db3bec5eef2423dfd", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMac3656f610d9882db3bec5eef2423dfd", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get env", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMac3656f610d9882db3bec5eef2423dfd", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 1785ms
+
+
+  
+NameError (undefined local variable or method `msg' for #<MessagesController:0x007fdebef37858>):
+  
+app/controllers/messages_controller.rb:66:in `reply'
+Started POST "/messages/reply" for 34.227.32.247 at 2017-08-18 00:40:50 -0400
+Cannot render console from 34.227.32.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM64e7f91352f7e3bc3b90d631e436e2a2", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM64e7f91352f7e3bc3b90d631e436e2a2", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get env", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM64e7f91352f7e3bc3b90d631e436e2a2", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 3322ms
+
+
+Started POST "/messages/reply" for 52.54.105.164 at 2017-08-18 00:41:34 -0400
+Cannot render console from 52.54.105.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM117082a648af178c3599281ffc6072ff", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM117082a648af178c3599281ffc6072ff", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get env", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM117082a648af178c3599281ffc6072ff", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 2746ms
+
+
+Started POST "/messages/reply" for 52.91.163.250 at 2017-08-18 00:44:42 -0400
+Cannot render console from 52.91.163.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM4453fd2f8b978d8d18a7ca94d50c3919", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM4453fd2f8b978d8d18a7ca94d50c3919", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get env", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM4453fd2f8b978d8d18a7ca94d50c3919", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 9933ms
+
+
+Started POST "/messages/reply" for 54.224.200.90 at 2017-08-18 00:45:07 -0400
+Cannot render console from 54.224.200.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"DC", "SmsMessageSid"=>"SM0b787b82feffb9d06c2bd76f21105c4a", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"94024", "SmsSid"=>"SM0b787b82feffb9d06c2bd76f21105c4a", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get env", "FromCountry"=>"US", "To"=>"+12028757342", "ToZip"=>"", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM0b787b82feffb9d06c2bd76f21105c4a", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 1921ms
+
+
+Started POST "/messages/reply" for 54.87.244.69 at 2017-08-18 00:47:01 -0400
+Cannot render console from 54.87.244.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMc64aab547e67844d10d512fcdaa84b12", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMc64aab547e67844d10d512fcdaa84b12", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMc64aab547e67844d10d512fcdaa84b12", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 4713ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:68:in `reply'
+Started POST "/messages/reply" for 54.210.127.134 at 2017-08-18 00:47:30 -0400
+Cannot render console from 54.210.127.134! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM1e27a504f26541c5ba499f6ee82614b5", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM1e27a504f26541c5ba499f6ee82614b5", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM1e27a504f26541c5ba499f6ee82614b5", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 2374ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:68:in `reply'
+Started POST "/messages/reply" for 54.221.0.55 at 2017-08-18 00:50:54 -0400
+Cannot render console from 54.221.0.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMc8be850217a1a92cc28416827962bb0e", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMc8be850217a1a92cc28416827962bb0e", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMc8be850217a1a92cc28416827962bb0e", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 885ms
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 4)):
+  
+app/controllers/messages_controller.rb:9:in `list_inventory'
+app/controllers/messages_controller.rb:28:in `get_quantity'
+app/controllers/messages_controller.rb:62:in `reply'
+Started POST "/messages/reply" for 54.89.215.192 at 2017-08-18 00:51:32 -0400
+Cannot render console from 54.89.215.192! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMc0ae38763b7375ba1d38aef19dc613bd", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMc0ae38763b7375ba1d38aef19dc613bd", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMc0ae38763b7375ba1d38aef19dc613bd", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 142ms
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 4)):
+  
+app/controllers/messages_controller.rb:9:in `list_inventory'
+app/controllers/messages_controller.rb:28:in `get_quantity'
+app/controllers/messages_controller.rb:62:in `reply'
+Started POST "/messages/reply" for 54.164.251.215 at 2017-08-18 00:52:45 -0400
+Cannot render console from 54.164.251.215! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM6a381683613bcfb3700727497a445d27", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM6a381683613bcfb3700727497a445d27", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM6a381683613bcfb3700727497a445d27", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 145ms
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 4)):
+  
+app/controllers/messages_controller.rb:9:in `list_inventory'
+app/controllers/messages_controller.rb:28:in `get_quantity'
+app/controllers/messages_controller.rb:62:in `reply'
+Started POST "/messages/reply" for 34.205.68.138 at 2017-08-18 00:53:12 -0400
+Cannot render console from 34.205.68.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMaa9fd63459c499a15157bc9d4eb16853", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMaa9fd63459c499a15157bc9d4eb16853", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMaa9fd63459c499a15157bc9d4eb16853", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 1184ms
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 4)):
+  
+app/controllers/messages_controller.rb:9:in `list_inventory'
+app/controllers/messages_controller.rb:28:in `get_quantity'
+app/controllers/messages_controller.rb:62:in `reply'
+Started POST "/messages/reply" for 34.201.63.150 at 2017-08-18 00:54:44 -0400
+Cannot render console from 34.201.63.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM9c9cf43f38750b0846afa4087a040992", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM9c9cf43f38750b0846afa4087a040992", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM9c9cf43f38750b0846afa4087a040992", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 610ms
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 4)):
+  
+app/controllers/messages_controller.rb:9:in `list_inventory'
+app/controllers/messages_controller.rb:28:in `get_quantity'
+app/controllers/messages_controller.rb:62:in `reply'
+Started POST "/messages/reply" for 34.230.64.87 at 2017-08-18 00:55:08 -0400
+Cannot render console from 34.230.64.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM89ccb3d6b399d969a664865619aef475", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM89ccb3d6b399d969a664865619aef475", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM89ccb3d6b399d969a664865619aef475", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 1167ms
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 4)):
+  
+app/controllers/messages_controller.rb:9:in `list_inventory'
+app/controllers/messages_controller.rb:28:in `get_quantity'
+app/controllers/messages_controller.rb:62:in `reply'
+Started POST "/messages/reply" for 54.89.180.26 at 2017-08-18 00:57:36 -0400
+Cannot render console from 54.89.180.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM1a4fe7ab368ab49c38cb15874edca7b8", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"76577", "SmsSid"=>"SM1a4fe7ab368ab49c38cb15874edca7b8", "FromState"=>"TX", "SmsStatus"=>"received", "FromCity"=>"GEORGETOWN", "Body"=>"get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM1a4fe7ab368ab49c38cb15874edca7b8", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+15129429154", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 393ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:68:in `reply'
+Started POST "/messages/reply" for 54.89.115.235 at 2017-08-18 01:02:06 -0400
+Cannot render console from 54.89.115.235! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM2f845f40580d3cf62d74378285601acf", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM2f845f40580d3cf62d74378285601acf", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM2f845f40580d3cf62d74378285601acf", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 1501ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:68:in `reply'
