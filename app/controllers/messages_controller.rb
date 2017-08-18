@@ -2,23 +2,27 @@ class MessagesController < ApplicationController
  skip_before_action :verify_authenticity_token
  
   def reply
-    msg = params["Body"]
-    non_twilio_num = params["From"]
-    account_sid = ENV['ACCOUNT_SID2'] 
-    auth_token = ENV['AUTH_TOKEN2'] 
-    @client = Twilio::REST::Client.new account_sid, auth_token
-    if msg == "hi" then
-      body_resp = "i like warm hugs"
-    elsif msg == "heyo" then
-      body_resp = "shame on you shame on your cow"
+    incoming_msg = params["Body"].downcase #convert to lowercase
+    external_msg_num = params["From"]
+    boot_twilio
+    if incoming_msg == "inventory" then
+      body_resp = "there is x-num left"
+    elsif incoming_msg == "tweet" then
+      body_resp = "post to twitter"
     else 
-      body_resp="we know the wayyy"
-    sms = @client.messages.create(
-    	body: body_resp,
-    	from: '+12028757342',
-    	to: non_twilio_num,
-    )
+      body_resp = "else lol"
     end
+    sms = @client.messages.create(
+      :from => '+19094559811',
+      :to => '+16505647814',
+    	:body => body_resp
+    	
+    )
   end
   private
+  def boot_twilio
+    account_sid = 'AC358a60437a112c5c59d3b52da1f0dcc7'
+    auth_token = 'e7ae1b711f733bae6c2647bd62154b77' 
+    @client = Twilio::REST::Client.new account_sid, auth_token
+  end
 end
