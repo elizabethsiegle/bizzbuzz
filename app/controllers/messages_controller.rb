@@ -3,6 +3,13 @@ class MessagesController < ApplicationController
   require 'unirest'
   require 'json'
   require 'ostruct'
+  require 'openssl'
+  require 'twitter'
+  require "rubygems"
+  #require_relative 'tweet_controller.rb'
+  #OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
+
+  #require "../bin/bot.rb"
   # Replace this value with your application's personal access token,
   # available from your application dashboard (https://connect.squareup.com/apps)
   ACCESS_TOKEN = 'sq0atp-PXtIb9nroEojtUkVGed3KQ'
@@ -19,10 +26,10 @@ class MessagesController < ApplicationController
     'Authorization' => 'Bearer ' + ACCESS_TOKEN,
     'Content-Type' => 'application/json'
   }
-                    
+            
   def list_inventory 
-    response = Unirest.get CONNECT_HOST + '/v1/' + LOCATION_ID + '/items',
-                      headers: REQUEST_HEADERS
+    #response = Unirest.get CONNECT_HOST + '/v1/' + LOCATION_ID + '/items',
+                     # headers: REQUEST_HEADERS
     puts REQUEST_HEADERS
     list_inv_code = '[
     {
@@ -115,7 +122,6 @@ class MessagesController < ApplicationController
   def reply
     json_object = list_inventory
     quantity_on_hand = get_quantity
-    
     incoming_msg = params["Body"] #convert to lowercase
     external_msg_num = params["From"]
     boot_twilio
@@ -126,17 +132,32 @@ class MessagesController < ApplicationController
       else 
         body_resp = "In stock"
       end
-    elsif incoming_msg == "tweet" then
-      body_resp = "Reply with your tweet message"
+    elsif incoming_msg == "Tweet" then
+      body_resp = "Reply with your tweet message like \"t:come to our store\""
+    elsif incoming_msg == "t: come to our store" then
+      #tweet
+      puts incoming_msg
+      @clientt = Twitter::REST::Client.new do |config|
+        config.consumer_key        = "MfnPEMYifabxIk9jtXW6toRqB"
+        config.consumer_secret     = "m0Im5HBqZ4qzY5bUYWxoLuWdeHY5k0nkqcJ3Lk4sBDLzayMQhU"
+        config.access_token        = "898183294491262977-IKKVqBHgWqy40mHSkcqxC0SmhRfgcf8"
+        config.access_token_secret = "ukOdHI1OwyoG1chfowjhx24qI1kN6NdUkw6qenrhs0WBx"
+      end
+      body_resp = "tweeting"
+      #@tweets = incoming_msg
+      puts "checkpoint1"
+      clientt.update(incoming_msg)
+      puts "checkpoint2"
     else
       body_resp="Invalid SMS Request"
     end
     sms = @client.messages.create(
       :from => '+19094559811',
-      :to => '+16505647814',
+      :to => '+15129429154',
       :body => body_resp
     )
   end
+  
   private
   def boot_twilio
     account_sid = 'AC358a60437a112c5c59d3b52da1f0dcc7'

@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   root 'pages#index'
 
+  resources :tweets, only: [:new, :create]
+
   get 'messages/reply'
   resource :messages do
   	collection do

@@ -1,0 +1,17 @@
+# Add configuration values here, as shown below.
+#
+# pusher_app_id: "2954"
+# pusher_key: 7381a978f7dd7f9a1117
+# pusher_secret: abdc3b896a0ffb85d373
+# stripe_api_key: sk_test_2J0l093xOyW72XUYJHE4Dv2r
+# stripe_publishable_key: pk_test_ro9jV5SNwGb1yYlQfzG17LHK
+#
+# production:
+#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
+#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+consumer_key: "MfnPEMYifabxIk9jtXW6toRqB"
+consumer_secret: "m0Im5HBqZ4qzY5bUYWxoLuWdeHY5k0nkqcJ3Lk4sBDLzayMQhU"
+access_token: "898183294491262977-IKKVqBHgWqy40mHSkcqxC0SmhRfgcf8"
+access_token_secret: "ukOdHI1OwyoG1chfowjhx24qI1kN6NdUkw6qenrhs0WBx"
+SSL_CERT_FILE: "C:\\RailsInstaller\\cacert.pem"
+facebook_access_token: "EAAED0sQhYXcBAAJkYAR3j7XOqE5MXG20OhB3N4cTQZCfTHvfkoKR8K4zaLL66NkcVGanW1aB6rSnzhONSpkWvzVtQ62PHJamTlNxZA1d7ZBWM95I47JlZCwFktFRG8iZC4prQpT1Q15FBFI4Cc5dRwoba4NAOkXmAS3p1y1RTAPPk1KbHCsqPcgjVi1jC2mAgCjAA5KM8KgZDZD"
