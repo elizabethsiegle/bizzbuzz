@@ -1,11 +1,8 @@
 class MessagesController < ApplicationController 
- skip_before_action :verify_authenticity_token
-
- require 'unirest'
-require 'json'
-require 'ostruct'
-
-class MyClass
+  skip_before_action :verify_authenticity_token
+  require 'unirest'
+  require 'json'
+  require 'ostruct'
   # Replace this value with your application's personal access token,
   # available from your application dashboard (https://connect.squareup.com/apps)
   ACCESS_TOKEN = 'sq0atp-PXtIb9nroEojtUkVGed3KQ'
@@ -20,14 +17,14 @@ class MyClass
   # Standard HTTP headers for every Connect API request
   REQUEST_HEADERS = {
     'Authorization' => 'Bearer ' + ACCESS_TOKEN,
-    'Accept' => 'application/json',
-    'Content-Type' => 'application/json'
+    'Accept' => 'application/json'
+    # 'Content-Type' => 'application/json'
   }
                     
-
-  def list_inventory() 
+  def list_inventory 
     response = Unirest.get CONNECT_HOST + '/v1/' + LOCATION_ID + '/items',
                       headers: REQUEST_HEADERS
+    puts REQUEST_HEADERS
     if response.code == 200
       #puts 'Successfully created item:'
       #String responseString = String.new(response.body)
@@ -36,15 +33,13 @@ class MyClass
       puts json_object[0].id
       return json_object
     else
-      puts 'location does not exisit'
+      puts 'location does not exist: list inventory'
       puts response.body
       return nil
     end
   end
 
-
-def get_quantity()
-
+  def get_quantity
     location_id = list_inventory
     response = Unirest.get CONNECT_HOST + '/v1/' + LOCATION_ID + '/inventory',
                       headers: REQUEST_HEADERS
@@ -56,11 +51,11 @@ def get_quantity()
       puts json_object[0].quantity_on_hand
       return json_object[0].quantity_on_hand
     else
-      puts 'location does not exisit'
+      puts 'location does not exist: get quantity'
       puts response.body
       return nil
     end
-end
+  end
  
   def reply
     json_object = list_inventory
@@ -69,22 +64,22 @@ end
     incoming_msg = params["Body"].downcase #convert to lowercase
     external_msg_num = params["From"]
     boot_twilio
-    if msg == "GET INV" then
+    if incoming_msg == "get inv" then
       if quantity_on_hand > json_object[0].variations[0].inventory_alert_threshold then 
         body_resp = "inventory for" + json_object[0].name + "is low"
       else 
         body_resp = "In stock"
       end
-    elsif msg == "TWEET" then
+    elsif incoming_msg == "tweet" then
       body_resp = "Reply with your tweet message"
     else
       body_resp="Invalid SMS Request"
     end
     sms = @client.messages.create(
       :from => '+19094559811',
-      :to => '+16505647814',
-    	:body => body_resp
-    	
+      :to => external_msg_num,
+      :body => body_resp
+      
     )
   end
   private
