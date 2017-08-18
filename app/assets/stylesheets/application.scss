@@ -81,6 +81,10 @@ $background-color: #E1F6FF;
   text-align: center;
 }
 
+.nav-item {
+  width: 50px;
+  height: 50px;
+}
 /* Match any class name that starts with icon */
 [class^="icon"] {
   position: relative;
@@ -89,3 +93,5 @@ $background-color: #E1F6FF;
 }
 
 @import "pages";
+@import "font-awesome-sprockets";
+@import "font-awesome";
