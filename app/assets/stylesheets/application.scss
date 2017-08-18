@@ -1,0 +1,142 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+//color variables
+$light-blue: #07C8E2;
+$dark-blue: #00426C;
+$white: white;
+$yellow: #F0B72B;
+$orange: #FA6433;
+$text-color: #4d4d4d;
+$background-color: #E1F6FF;
+
+* {
+  font-family: 'Lato', sans-serif;
+
+}
+ body {
+   text-align: left;
+   background-color: $background-color;
+   color: $text-color;
+
+ }
+
+#main-body {
+  padding-left:200px;
+}
+
+ footer {
+    margin-top: 100px;
+  }
+
+.container {
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+i {
+  padding-right: 10px;
+}
+#rt{
+  fill: $yellow;
+}
+
+#like{
+  fill: $orange;
+}
+
+#hashtag {
+  fill:$text-color;
+}
+#share{
+  fill: $white;
+}
+
+#fb {
+  fill:$text-color;
+}
+
+#reactions {
+  fill: $orange;
+}
+
+#comment {
+  fill: $text-color;
+}
+#trend {
+  fill: $white;
+}
+#followers {
+  fill: $dark-blue;
+}
+
+#inventory{
+  fill: $light-blue;
+}
+
+#trends, #social-media, #inventory {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.icon-size {
+  width: 100px;
+  height: 100px;
+}
+
+.icon-small {
+  width: 65px;
+  height: 65px;
+}
+
+.icon-title{
+  width: 250px;
+  height: 250px;
+}
+
+.index-page{
+  text-align: center;
+}
+
+.navbar-brand {
+  padding-bottom: 100px;
+}
+.nav-item{
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.nav-item a {
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: $text-color;
+}
+
+.nav-item a:hover {
+color: black;
+}
+
+
+/* Match any class name that starts with icon */
+[class^="icon"] {
+  position: relative;
+  top: 15px;
+  margin-right: 10px;
+}
+
+@import "pages";
+@import "font-awesome-sprockets";
+@import "font-awesome";

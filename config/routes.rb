@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   #get 'messages/reply'
 
+  get 'pages/connect'
+
+  get 'pages/howto'
   get 'pages/data'
   get 'pages/index'
 
