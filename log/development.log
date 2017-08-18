@@ -2563,3 +2563,234 @@ Processing by PagesController#howto as HTML
 Completed 200 OK in 1716ms (Views: 1488.1ms)
 
 
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:16:30 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 406ms (Views: 156.1ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:16:35 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 23.5ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:17:10 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 502ms (Views: 499.9ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:17:14 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 26ms (Views: 24.8ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:18:04 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 396ms (Views: 394.5ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:18:20 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 417ms (Views: 415.2ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:18:44 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 451ms (Views: 449.3ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:19:08 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 425ms (Views: 423.7ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:19:40 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 405ms (Views: 403.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-18 07:20:09 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.3ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:20:13 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 49.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-18 07:22:02 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 21.2ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:22:04 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 48.6ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:22:20 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 36.8ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:25:40 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.4ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:26:53 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 19.1ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:27:09 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 28.3ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:27:22 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:27:47 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 28ms (Views: 26.3ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:28:09 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 21.3ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:28:37 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 20.4ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:28:57 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 22.9ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:30:35 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 408ms (Views: 406.5ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:31:03 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 17.9ms)
+
+
+Started GET "/pages/connect.html" for 127.0.0.1 at 2017-08-18 07:31:51 -0400
+Processing by PagesController#connect as HTML
+  Rendering pages/connect.html.erb within layouts/application
+  Rendered pages/connect.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.1ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:32:34 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 51ms (Views: 49.1ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:33:19 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 18.0ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:33:52 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 18.6ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:34:09 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 18.1ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:35:05 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 411ms (Views: 409.1ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:35:13 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 408ms (Views: 406.7ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:41:04 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 497ms (Views: 495.5ms)
+
+
+Started GET "/pages/howto.html" for 127.0.0.1 at 2017-08-18 07:41:13 -0400
+Processing by PagesController#howto as HTML
+  Rendering pages/howto.html.erb within layouts/application
+  Rendered pages/howto.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 527ms (Views: 524.8ms)
+
+

@@ -27,6 +27,8 @@ $background-color: #E1F6FF;
    text-align: left;
    background-color: $background-color;
    color: $text-color;
+   padding-left: 100px;
+
  }
 
  footer {
@@ -69,7 +71,11 @@ $background-color: #E1F6FF;
 .icon-size {
   width: 100px;
   height: 100px;
+}
 
+.icon-small {
+  width: 65px;
+  height: 65px;
 }
 
 .icon-title{
@@ -81,10 +87,26 @@ $background-color: #E1F6FF;
   text-align: center;
 }
 
-.nav-item {
-  width: 50px;
-  height: 50px;
+.navbar-brand {
+  padding-bottom: 30px;
 }
+.nav-item{
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.nav-item a {
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: $text-color;
+}
+
+.nav-item a:hover {
+color: black;
+}
+
+
 /* Match any class name that starts with icon */
 [class^="icon"] {
   position: relative;
