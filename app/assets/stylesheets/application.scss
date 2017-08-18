@@ -20,7 +20,7 @@ $dark-blue: #00426C;
 $white: white;
 $yellow: #F0B72B;
 $orange: #FA6433;
-$text-color: #595959;
+$text-color: #4d4d4d;
 $background-color: #E1F6FF;
 
  body {
@@ -32,7 +32,6 @@ $background-color: #E1F6FF;
  footer {
     margin-top: 100px;
   }
-
 #rt{
   fill: $yellow;
 }
@@ -46,7 +45,7 @@ $background-color: #E1F6FF;
 }
 
 #fb {
-  fill:$light-blue;
+  fill:$text-color;
 }
 
 #reactions {
@@ -66,13 +65,27 @@ $background-color: #E1F6FF;
 #inventory{
   fill: $light-blue;
 }
+
 .icon-size {
   width: 100px;
   height: 100px;
+
 }
 
-.title-icon{
+.icon-title{
   width: 250px;
   height: 250px;
 }
+
+.index-page{
+  text-align: center;
+}
+
+/* Match any class name that starts with icon */
+[class^="icon"] {
+  position: relative;
+  top: 15px;
+  margin-right: 10px;
+}
+
 @import "pages";
