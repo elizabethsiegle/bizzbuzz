@@ -716,3 +716,17 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 545ms (Views: 312.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-08-17 20:07:15 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 445ms (Views: 174.5ms)
+
+
+Started GET "/pages/data.html" for 127.0.0.1 at 2017-08-17 20:07:20 -0400
+Processing by PagesController#data as HTML
+  Rendering pages/data.html.erb within layouts/application
+  Rendered pages/data.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 25.9ms)
+
+
