@@ -1303,3 +1303,416 @@ Completed 500 Internal Server Error in 1501ms
 NoMethodError (undefined method `[]' for nil:NilClass):
   
 app/controllers/messages_controller.rb:68:in `reply'
+Started POST "/messages/reply" for 54.210.127.134 at 2017-08-18 01:09:19 -0400
+Cannot render console from 54.210.127.134! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:19: syntax error, unexpected tCONSTANT, expecting '}'
+ation': 'Bearer ' ACCESS_TOKEN,
+                              ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:20: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+    'Accept' => 'application/json'
+               ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:22: syntax error, unexpected '}', expecting keyword_end):
+  
+app/controllers/messages_controller.rb:19: syntax error, unexpected tCONSTANT, expecting '}'
+app/controllers/messages_controller.rb:20: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+app/controllers/messages_controller.rb:22: syntax error, unexpected '}', expecting keyword_end
+Started POST "/messages/reply" for 54.144.196.59 at 2017-08-18 01:09:51 -0400
+Cannot render console from 54.144.196.59! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM4094c02f838cb7755f41f73936ce376a", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM4094c02f838cb7755f41f73936ce376a", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM4094c02f838cb7755f41f73936ce376a", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 3395ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:68:in `reply'
+Started POST "/messages/reply" for 54.221.0.55 at 2017-08-18 01:10:16 -0400
+Cannot render console from 54.221.0.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM83afbe465278a7808b725eb736c1a092", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM83afbe465278a7808b725eb736c1a092", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM83afbe465278a7808b725eb736c1a092", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 2176ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:68:in `reply'
+Started POST "/messages/reply" for 34.227.193.151 at 2017-08-18 01:15:41 -0400
+Cannot render console from 34.227.193.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif incoming_msg == "tweet" then
+         ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_then, expecting keyword_end
+f incoming_msg == "tweet" then
+                              ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:90: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_elsif, expecting keyword_end
+app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_then, expecting keyword_end
+app/controllers/messages_controller.rb:90: syntax error, unexpected keyword_end, expecting end-of-input
+Started POST "/messages/reply" for 34.227.49.92 at 2017-08-18 01:17:18 -0400
+Cannot render console from 34.227.49.92! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif incoming_msg == "tweet" then
+         ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_then, expecting keyword_end
+f incoming_msg == "tweet" then
+                              ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:90: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_elsif, expecting keyword_end
+app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_then, expecting keyword_end
+app/controllers/messages_controller.rb:90: syntax error, unexpected keyword_end, expecting end-of-input
+Started POST "/messages/reply" for 34.201.39.135 at 2017-08-18 01:17:23 -0400
+Cannot render console from 34.201.39.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif incoming_msg == "tweet" then
+         ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_then, expecting keyword_end
+f incoming_msg == "tweet" then
+                              ^
+/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:90: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_elsif, expecting keyword_end
+app/controllers/messages_controller.rb:73: syntax error, unexpected keyword_then, expecting keyword_end
+app/controllers/messages_controller.rb:90: syntax error, unexpected keyword_end, expecting end-of-input
+Started POST "/messages/reply" for 54.145.118.130 at 2017-08-18 01:18:08 -0400
+Cannot render console from 54.145.118.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM78664001b39cdaf3585a9c4914ed6536", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM78664001b39cdaf3585a9c4914ed6536", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM78664001b39cdaf3585a9c4914ed6536", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 452ms
+
+
+  
+NoMethodError (undefined method `to_sym' for 0:Integer
+Did you mean?  to_s):
+  
+app/controllers/messages_controller.rb:33:in `list_inventory'
+app/controllers/messages_controller.rb:61:in `reply'
+Started POST "/messages/reply" for 34.205.78.242 at 2017-08-18 01:18:35 -0400
+Cannot render console from 34.205.78.242! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM8f4fca1d6a2ecfc3ecf4664f2ce7729d", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM8f4fca1d6a2ecfc3ecf4664f2ce7729d", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM8f4fca1d6a2ecfc3ecf4664f2ce7729d", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 1467ms
+
+
+  
+NoMethodError (undefined method `to_sym' for 0:Integer
+Did you mean?  to_s):
+  
+app/controllers/messages_controller.rb:51:in `get_quantity'
+app/controllers/messages_controller.rb:62:in `reply'
+Started POST "/messages/reply" for 54.147.194.242 at 2017-08-18 01:19:01 -0400
+Cannot render console from 54.147.194.242! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM8c140f49680569a79cbbdf24aa101ddc", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM8c140f49680569a79cbbdf24aa101ddc", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM8c140f49680569a79cbbdf24aa101ddc", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 2228ms
+
+
+  
+NoMethodError (undefined method `to_sym' for 0:Integer
+Did you mean?  to_s):
+  
+app/controllers/messages_controller.rb:52:in `get_quantity'
+app/controllers/messages_controller.rb:62:in `reply'
+Started POST "/messages/reply" for 34.228.145.88 at 2017-08-18 01:22:36 -0400
+Cannot render console from 34.228.145.88! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM399154cf3daf5d19029339e99c095e67", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM399154cf3daf5d19029339e99c095e67", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM399154cf3daf5d19029339e99c095e67", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 1686ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:69:in `reply'
+Started GET "/messages/reply/" for 69.94.208.23 at 2017-08-18 01:28:08 -0400
+Cannot render console from 69.94.208.23! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"message"=>{}}
+Completed 500 Internal Server Error in 4795ms
+
+
+  
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:64:in `reply'
+Started GET "/messages/reply" for 65.50.0.4 at 2017-08-18 01:28:38 -0400
+Cannot render console from 65.50.0.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as HTML
+Completed 500 Internal Server Error in 1410ms
+
+
+  
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:64:in `reply'
+Started GET "/messages/reply" for 65.50.0.4 at 2017-08-18 01:29:00 -0400
+Cannot render console from 65.50.0.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as HTML
+Completed 500 Internal Server Error in 689ms
+
+
+  
+Twilio::REST::RestError (Unable to create record: A 'To' phone number is required.):
+  
+app/controllers/messages_controller.rb:79:in `reply'
+Started GET "/messages/reply" for 65.50.0.4 at 2017-08-18 01:29:33 -0400
+Cannot render console from 65.50.0.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as HTML
+Completed 406 Not Acceptable in 1997ms
+
+
+  
+ActionController::UnknownFormat (MessagesController#reply is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.3) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.3) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.3) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.3) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.3) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.3) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.3) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.3) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.3) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.3) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.3) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.3) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.3) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/messages/reply" for 52.70.143.255 at 2017-08-18 01:32:40 -0400
+Cannot render console from 52.70.143.255! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMc77a516aa8ec428eae22a0e39038e5ea", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMc77a516aa8ec428eae22a0e39038e5ea", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMc77a516aa8ec428eae22a0e39038e5ea", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 999ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:69:in `reply'
+Started POST "/messages/reply" for 54.227.157.39 at 2017-08-18 01:33:23 -0400
+Cannot render console from 54.227.157.39! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM2ad264bf0bd1e536b1274882158598bc", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM2ad264bf0bd1e536b1274882158598bc", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM2ad264bf0bd1e536b1274882158598bc", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 913ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:69:in `reply'
+Started GET "/messages/reply" for 65.50.0.4 at 2017-08-18 01:35:22 -0400
+Cannot render console from 65.50.0.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as HTML
+Completed 406 Not Acceptable in 2519ms
+
+
+  
+ActionController::UnknownFormat (MessagesController#reply is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.3) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.3) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.3) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.3) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.3) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.3) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.3) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.3) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.3) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.3) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.3) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.3) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.3) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/messages/reply" for 52.91.163.250 at 2017-08-18 01:41:41 -0400
+Cannot render console from 52.91.163.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM1354b330d1761a58271e29e0f7472f8e", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM1354b330d1761a58271e29e0f7472f8e", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get env", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM1354b330d1761a58271e29e0f7472f8e", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 566ms
+
+
+  
+NoMethodError (undefined method `var' for #<MessagesController:0x007f811d1dd530>):
+  
+app/controllers/messages_controller.rb:28:in `list_inventory'
+app/controllers/messages_controller.rb:136:in `reply'
+Started POST "/messages/reply" for 54.85.153.206 at 2017-08-18 01:42:10 -0400
+Cannot render console from 54.85.153.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM0ec021eef66fa310b5a67ac1fa59c898", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM0ec021eef66fa310b5a67ac1fa59c898", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get env", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM0ec021eef66fa310b5a67ac1fa59c898", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 2037ms
+
+
+Started POST "/messages/reply" for 54.221.0.55 at 2017-08-18 01:43:47 -0400
+Cannot render console from 54.221.0.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:166: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/messages_controller.rb:166: syntax error, unexpected keyword_end, expecting end-of-input
+Started POST "/messages/reply" for 52.70.143.255 at 2017-08-18 01:44:52 -0400
+Cannot render console from 52.70.143.255! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMeb6ddd3dee5e6f7e7dc8ae88d2a2244f", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMeb6ddd3dee5e6f7e7dc8ae88d2a2244f", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMeb6ddd3dee5e6f7e7dc8ae88d2a2244f", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 882ms
+
+
+  
+JSON::ParserError (765: unexpected token at 'code [
+    {
+        "variation_id": "Z2T7YBSEVGSKE6R6K444FRVF",
+        "quantity_on_hand": 15
+    },
+    {
+        "variation_id": "ZBFW2TSM3LQPL2TBJBKTFWUA",
+        "quantity_on_hand": 1
+    }
+]'):
+  
+app/controllers/messages_controller.rb:124:in `get_quantity'
+app/controllers/messages_controller.rb:137:in `reply'
+Started POST "/messages/reply" for 54.84.237.135 at 2017-08-18 01:47:22 -0400
+Cannot render console from 54.84.237.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM38d450eabe90982a70df0efbd13e7edd", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM38d450eabe90982a70df0efbd13e7edd", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM38d450eabe90982a70df0efbd13e7edd", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 964ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:144:in `reply'
+Started POST "/messages/reply" for 34.226.249.109 at 2017-08-18 01:48:20 -0400
+Cannot render console from 34.226.249.109! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM34af26f43ba448a76b1814207430210c", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM34af26f43ba448a76b1814207430210c", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get env", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM34af26f43ba448a76b1814207430210c", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 1780ms
+
+
+Started POST "/messages/reply" for 54.224.200.90 at 2017-08-18 01:48:57 -0400
+Cannot render console from 54.224.200.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMcfe664b8be1b4dff229349172c229ace", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMcfe664b8be1b4dff229349172c229ace", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Get inv", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMcfe664b8be1b4dff229349172c229ace", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 1790ms
+
+
