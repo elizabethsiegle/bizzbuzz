@@ -17,56 +17,112 @@ class MessagesController < ApplicationController
   # Standard HTTP headers for every Connect API request
   REQUEST_HEADERS = {
     'Authorization' => 'Bearer ' + ACCESS_TOKEN,
-    'Accept' => 'application/json'
-    # 'Content-Type' => 'application/json'
+    'Content-Type' => 'application/json'
   }
                     
   def list_inventory 
     response = Unirest.get CONNECT_HOST + '/v1/' + LOCATION_ID + '/items',
                       headers: REQUEST_HEADERS
     puts REQUEST_HEADERS
-    if response.code == 200
-      #puts 'Successfully created item:'
-      #String responseString = String.new(response.body)
-      json_object = JSON.parse(JSON.pretty_generate(response.body), object_class: OpenStruct)
-      #json_object.inspect
-      puts json_object[0].id
-      return json_object
-    else
-      puts 'location does not exist: list inventory'
-      puts response.body
-      return nil
-    end
+    list_inv_code = '[
+    {
+        "fees": [],
+        "variations": [
+            {
+                "inventory_alert_type": "LOW_QUANTITY",
+                "track_inventory": true,
+                "pricing_type": "FIXED_PRICING",
+                "id": "Z2T7YBSEVGSKE6R6K444FRVF",
+                "name": "Regular",
+                "price_money": {
+                    "currency_code": "USD",
+                    "amount": 100
+                },
+                "ordinal": 1,
+                "item_id": "KASTPQBETX5MRPHPNBZBFPWZ",
+                "inventory_alert_threshold": 5
+            }
+        ],
+        "available_for_pickup": false,
+        "available_online": false,
+        "visibility": "PRIVATE",
+        "id": "KASTPQBETX5MRPHPNBZBFPWZ",
+        "description": "",
+        "name": "Lays Wavy Potato Chips",
+        "category_id": "TQJZP3KDHUVRNL5O7GF3OUQH",
+        "category": {
+            "id": "TQJZP3KDHUVRNL5O7GF3OUQH",
+            "name": "CHIPS"
+        },
+        "type": "NORMAL"
+    },
+    {
+        "fees": [],
+        "variations": [
+            {
+                "inventory_alert_type": "LOW_QUANTITY",
+                "track_inventory": true,
+                "pricing_type": "FIXED_PRICING",
+                "id": "ZBFW2TSM3LQPL2TBJBKTFWUA",
+                "name": "Regular",
+                "price_money": {
+                    "currency_code": "USD",
+                    "amount": 100
+                },
+                "sku": "",
+                "ordinal": 1,
+                "item_id": "HYTH6I4JP4ORYGXTEPNJP4UB",
+                "inventory_alert_threshold": 2
+            }
+        ],
+        "available_for_pickup": false,
+        "available_online": false,
+        "visibility": "PRIVATE",
+        "id": "HYTH6I4JP4ORYGXTEPNJP4UB",
+        "description": "red delicious ",
+        "name": "Apples",
+        "category_id": "C3V34P5IZLJCASLTRTGX4GTN",
+        "category": {
+            "id": "C3V34P5IZLJCASLTRTGX4GTN",
+            "name": "FRUIT"
+        },
+        "type": "NORMAL"
+    }
+]'
+    json_object = JSON.parse(list_inv_code, object_class: OpenStruct)
+    #json_object.inspect
+    puts json_object[0].id
+    return json_object
   end
 
   def get_quantity
     location_id = list_inventory
-    response = Unirest.get CONNECT_HOST + '/v1/' + LOCATION_ID + '/inventory',
-                      headers: REQUEST_HEADERS
-    if response.code == 200
-      #puts 'Successfully created item:'
-      #String responseString = String.new(response.body)
-      json_object = JSON.parse(JSON.pretty_generate(response.body), object_class: OpenStruct)
-      #json_object.inspect
+    quant_code = '[
+    {
+        "variation_id": "Z2T7YBSEVGSKE6R6K444FRVF",
+        "quantity_on_hand": 15
+    },
+    {
+        "variation_id": "ZBFW2TSM3LQPL2TBJBKTFWUA",
+        "quantity_on_hand": 1
+    }
+]'
+      json_object = JSON.parse(quant_code, object_class: OpenStruct)
       puts json_object[0].quantity_on_hand
       return json_object[0].quantity_on_hand
-    else
-      puts 'location does not exist: get quantity'
-      puts response.body
-      return nil
-    end
   end
  
   def reply
     json_object = list_inventory
     quantity_on_hand = get_quantity
     
-    incoming_msg = params["Body"].downcase #convert to lowercase
+    incoming_msg = params["Body"] #convert to lowercase
     external_msg_num = params["From"]
     boot_twilio
-    if incoming_msg == "get inv" then
+    if incoming_msg == "Get inv" then
+      puts quantity_on_hand
       if quantity_on_hand > json_object[0].variations[0].inventory_alert_threshold then 
-        body_resp = "inventory for" + json_object[0].name + "is low"
+        body_resp = "inventory for " + json_object[0].name + " is low"
       else 
         body_resp = "In stock"
       end
@@ -77,9 +133,8 @@ class MessagesController < ApplicationController
     end
     sms = @client.messages.create(
       :from => '+19094559811',
-      :to => external_msg_num,
+      :to => '+16505647814',
       :body => body_resp
-      
     )
   end
   private
