@@ -667,3 +667,234 @@ No template found for MessagesController#reply, rendering head :no_content
 Completed 204 No Content in 24499ms
 
 
+Started POST "/messages/reply" for 34.230.62.101 at 2017-08-17 21:16:01 -0400
+Cannot render console from 34.230.62.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"DC", "SmsMessageSid"=>"SMb1cdf4fd99c978f682df7ef9ea03c571", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"94024", "SmsSid"=>"SMb1cdf4fd99c978f682df7ef9ea03c571", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+12028757342", "ToZip"=>"", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMb1cdf4fd99c978f682df7ef9ea03c571", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 769ms
+
+
+Started POST "/messages/reply" for 54.226.219.158 at 2017-08-17 21:16:06 -0400
+Cannot render console from 54.226.219.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"DC", "SmsMessageSid"=>"SM0769bad1bdefe159d44ef39c203e82d5", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"94024", "SmsSid"=>"SM0769bad1bdefe159d44ef39c203e82d5", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hey", "FromCountry"=>"US", "To"=>"+12028757342", "ToZip"=>"", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM0769bad1bdefe159d44ef39c203e82d5", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 477ms
+
+
+Started POST "/messages/reply" for 54.89.215.192 at 2017-08-17 21:22:18 -0400
+Cannot render console from 54.89.215.192! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"DC", "SmsMessageSid"=>"SMb47715b8f838a701fce9cdb91ea1ed6d", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"94024", "SmsSid"=>"SMb47715b8f838a701fce9cdb91ea1ed6d", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+12028757342", "ToZip"=>"", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMb47715b8f838a701fce9cdb91ea1ed6d", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 419ms
+
+
+Started POST "/messages/reply" for 54.85.153.206 at 2017-08-17 21:22:54 -0400
+Cannot render console from 54.85.153.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM196dc76abdc89b93e46c54bbc6354060", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM196dc76abdc89b93e46c54bbc6354060", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM196dc76abdc89b93e46c54bbc6354060", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 752ms
+
+
+Started POST "/messages/reply" for 34.201.58.161 at 2017-08-17 21:23:01 -0400
+Cannot render console from 34.201.58.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMff522f309fbcfd8e22b00e1d522e996a", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMff522f309fbcfd8e22b00e1d522e996a", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Heyo", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMff522f309fbcfd8e22b00e1d522e996a", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 429ms
+
+
+Started POST "/messages/reply" for 54.89.215.192 at 2017-08-17 21:24:39 -0400
+Cannot render console from 54.89.215.192! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM692449ada93a4717e55ba8522d431d48", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM692449ada93a4717e55ba8522d431d48", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Eff this", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM692449ada93a4717e55ba8522d431d48", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 666ms
+
+
+Started POST "/messages/reply" for 54.209.187.141 at 2017-08-17 21:31:22 -0400
+Cannot render console from 54.209.187.141! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMe993e4f055ebf46e9cb2c31840fb17ac", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMe993e4f055ebf46e9cb2c31840fb17ac", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMe993e4f055ebf46e9cb2c31840fb17ac", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 773ms
+
+
+Started POST "/messages/reply" for 54.167.248.104 at 2017-08-17 21:33:24 -0400
+Cannot render console from 54.167.248.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM37aee8b6e328137b3054fdb7742a9347", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM37aee8b6e328137b3054fdb7742a9347", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM37aee8b6e328137b3054fdb7742a9347", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 565ms
+
+
+Started GET "/messages/reply" for 65.50.0.4 at 2017-08-17 21:34:43 -0400
+Cannot render console from 65.50.0.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as HTML
+Completed 500 Internal Server Error in 381ms
+
+
+  
+Twilio::REST::RestError (Unable to create record: A 'To' phone number is required.):
+  
+app/controllers/messages_controller.rb:16:in `reply'
+Started POST "/messages/reply" for 34.228.73.219 at 2017-08-17 21:35:08 -0400
+Cannot render console from 34.228.73.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMd030cbf399c9fff5e65b37887e0ee9b7", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMd030cbf399c9fff5e65b37887e0ee9b7", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMd030cbf399c9fff5e65b37887e0ee9b7", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 472ms
+
+
+Started POST "/messages/reply" for 54.89.115.235 at 2017-08-17 21:41:03 -0400
+Cannot render console from 54.89.115.235! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM077930c444f0fc47077eaaf82941166a", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM077930c444f0fc47077eaaf82941166a", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM077930c444f0fc47077eaaf82941166a", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 420ms
+
+
+Started POST "/messages/reply" for 54.90.142.173 at 2017-08-17 21:42:51 -0400
+Cannot render console from 54.90.142.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM55a476aaa1a5ac6e3e2f54de6e9456fc", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM55a476aaa1a5ac6e3e2f54de6e9456fc", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM55a476aaa1a5ac6e3e2f54de6e9456fc", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NameError (uninitialized constant MessagesController::SMSLogger):
+  
+app/controllers/messages_controller.rb:7:in `reply'
+Started POST "/messages/reply" for 34.229.238.90 at 2017-08-17 21:43:20 -0400
+Cannot render console from 34.229.238.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMff00cd4117677e7a24c70c18ef11aea5", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMff00cd4117677e7a24c70c18ef11aea5", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hi", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMff00cd4117677e7a24c70c18ef11aea5", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `messages' for nil:NilClass):
+  
+app/controllers/messages_controller.rb:17:in `reply'
+Started POST "/messages/reply" for 54.224.200.90 at 2017-08-17 21:43:54 -0400
+Cannot render console from 54.224.200.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM67e974671a6cece4c5426561dee4b33a", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM67e974671a6cece4c5426561dee4b33a", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Hey", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM67e974671a6cece4c5426561dee4b33a", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 1004ms
+
+
+Started POST "/messages/reply" for 54.242.90.168 at 2017-08-17 21:44:56 -0400
+Cannot render console from 54.242.90.168! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM6caae8930f03745c1f7f59c8d656f842", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM6caae8930f03745c1f7f59c8d656f842", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM6caae8930f03745c1f7f59c8d656f842", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 60ms
+
+
+Started POST "/messages/reply" for 34.230.62.101 at 2017-08-17 21:45:09 -0400
+Cannot render console from 34.230.62.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM26f6ad7bc879226ceed083c499de52e5", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM26f6ad7bc879226ceed083c499de52e5", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM26f6ad7bc879226ceed083c499de52e5", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 60ms
+
+
+Started POST "/messages/reply" for 54.204.144.128 at 2017-08-17 21:50:19 -0400
+Cannot render console from 54.204.144.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/messages_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/messages/reply" for 54.85.188.86 at 2017-08-17 21:52:06 -0400
+Cannot render console from 54.85.188.86! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:25: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/messages_controller.rb:25: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/messages/reply" for 34.228.145.88 at 2017-08-17 21:52:47 -0400
+Cannot render console from 34.228.145.88! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/lsiegle/Desktop/codecamp/bizzbuzz/app/controllers/messages_controller.rb:25: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/messages_controller.rb:25: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/messages/reply" for 54.87.127.250 at 2017-08-17 21:53:29 -0400
+Cannot render console from 54.87.127.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMd94e5b309291ae75e18acaf528f5019d", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMd94e5b309291ae75e18acaf528f5019d", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMd94e5b309291ae75e18acaf528f5019d", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 330ms
+
+
+  
+NameError (undefined local variable or method `boot_twilio' for #<MessagesController:0x007fb9c410f358>
+Did you mean?  boot_travel):
+  
+app/controllers/messages_controller.rb:7:in `reply'
+Started POST "/messages/reply" for 34.228.73.219 at 2017-08-17 21:53:52 -0400
+Cannot render console from 34.228.73.219! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM5d1ab99b672509d48107c2190edaa31f", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM5d1ab99b672509d48107c2190edaa31f", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM5d1ab99b672509d48107c2190edaa31f", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 459ms
+
+
+Started POST "/messages/reply" for 52.70.143.255 at 2017-08-17 21:54:26 -0400
+Cannot render console from 52.70.143.255! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM016acace8ddf2f3bfca4d2460eed85cc", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM016acace8ddf2f3bfca4d2460eed85cc", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Heyo", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM016acace8ddf2f3bfca4d2460eed85cc", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 355ms
+
+
+  
+Twilio::REST::RestError (Unable to create record: Message body is required.):
+  
+app/controllers/messages_controller.rb:13:in `reply'
+Started POST "/messages/reply" for 52.91.163.250 at 2017-08-17 21:54:38 -0400
+Cannot render console from 52.91.163.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMe334882089f5a394ef08fe76d8d4af70", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMe334882089f5a394ef08fe76d8d4af70", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"heyo", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMe334882089f5a394ef08fe76d8d4af70", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 500ms
+
+
+Started POST "/messages/reply" for 54.85.188.86 at 2017-08-17 21:56:31 -0400
+Cannot render console from 54.85.188.86! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMbe7af822f300f628906c774e189b805b", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMbe7af822f300f628906c774e189b805b", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMbe7af822f300f628906c774e189b805b", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 122ms
+
+
+  
+NameError (undefined local variable or method `msg' for #<MessagesController:0x007fb9c7386a48>):
+  
+app/controllers/messages_controller.rb:10:in `reply'
+Started POST "/messages/reply" for 34.227.193.151 at 2017-08-17 21:56:43 -0400
+Cannot render console from 34.227.193.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMf1e3ef6adfa243b7d1f247c47da5a75e", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMf1e3ef6adfa243b7d1f247c47da5a75e", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMf1e3ef6adfa243b7d1f247c47da5a75e", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 119ms
+
+
+  
+NameError (undefined local variable or method `msg' for #<MessagesController:0x007fb9c71beee0>):
+  
+app/controllers/messages_controller.rb:10:in `reply'
+Started POST "/messages/reply" for 52.54.105.164 at 2017-08-17 21:56:55 -0400
+Cannot render console from 52.54.105.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM01f5413c9bd4ef204ebcbd001302d7f4", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SM01f5413c9bd4ef204ebcbd001302d7f4", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Twert", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SM01f5413c9bd4ef204ebcbd001302d7f4", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 730ms
+
+
+Started POST "/messages/reply" for 54.158.153.242 at 2017-08-17 21:57:40 -0400
+Cannot render console from 54.158.153.242! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMf7cbe0344725cc3e0fc5b602420da5fb", "NumMedia"=>"0", "ToCity"=>"POMONA", "FromZip"=>"94024", "SmsSid"=>"SMf7cbe0344725cc3e0fc5b602420da5fb", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"MOUNTAIN VIEW", "Body"=>"Tweet", "FromCountry"=>"US", "To"=>"+19094559811", "ToZip"=>"91764", "AddOns"=>"{\"status\":\"successful\",\"message\":null,\"code\":null,\"results\":{}}", "NumSegments"=>"1", "MessageSid"=>"SMf7cbe0344725cc3e0fc5b602420da5fb", "AccountSid"=>"AC358a60437a112c5c59d3b52da1f0dcc7", "From"=>"+16505647814", "ApiVersion"=>"2010-04-01"}
+No template found for MessagesController#reply, rendering head :no_content
+Completed 204 No Content in 952ms
+
+
