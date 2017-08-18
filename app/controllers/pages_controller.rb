@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-  def data
+  def connect
   end
 end
