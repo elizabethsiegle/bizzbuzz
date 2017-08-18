@@ -23,17 +23,33 @@ $orange: #FA6433;
 $text-color: #4d4d4d;
 $background-color: #E1F6FF;
 
+* {
+  font-family: 'Lato', sans-serif;
+
+}
  body {
    text-align: left;
    background-color: $background-color;
    color: $text-color;
-   padding-left: 100px;
 
  }
+
+#main-body {
+  padding-left:200px;
+}
 
  footer {
     margin-top: 100px;
   }
+
+.container {
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+i {
+  padding-right: 10px;
+}
 #rt{
   fill: $yellow;
 }
@@ -42,6 +58,9 @@ $background-color: #E1F6FF;
   fill: $orange;
 }
 
+#hashtag {
+  fill:$text-color;
+}
 #share{
   fill: $white;
 }
@@ -68,6 +87,10 @@ $background-color: #E1F6FF;
   fill: $light-blue;
 }
 
+#trends, #social-media, #inventory {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .icon-size {
   width: 100px;
   height: 100px;
@@ -88,11 +111,11 @@ $background-color: #E1F6FF;
 }
 
 .navbar-brand {
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 .nav-item{
   padding-bottom: 20px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .nav-item a {
