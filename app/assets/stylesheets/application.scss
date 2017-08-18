@@ -33,4 +33,12 @@ $background-color: #E1F6FF;
     margin-top: 100px;
   }
 
-  @import "pages";
+.rt{
+  fill: $yellow;
+}
+
+.icon-size {
+  width: 100px;
+  height: 100px;
+}
+@import "pages";
